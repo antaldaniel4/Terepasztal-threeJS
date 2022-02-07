@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Terepasztal</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        canvas {
+            width: 100%;
+            height: 100%
+        }
+        #author {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 50%;
+            text-align: left;
+            z-index: 100;
+            display:block;
+            color: yellow;
+        }
+        #control {
+            position: absolute;
+            top: 30px;
+            right: 10px;
+            width: 50%;
+            text-align: right;
+            z-index: 100;
+            display:block;
+            color: cyan;
+            opacity: 1.0;
+        }
+    </style>
+</head>
+<body>
+<div id="infopanel">
+    <div id="author">
+        Készítette: Antal Dániel D6MEA7 Mérnök inf. 2021-22/1
+    </div>
+    <div id="control">
+    Napszak: d/n | Mozgások: 1/0 | Infópanel kapcsolása: i
+        <div > Madár mozgatása | fel / le /jobbra / balra
+
+        </div>
+    </div>
+
+</div>
+<script type="module" src="terepasztal_AD.js"></script>
+<!--<script type="module" src="demo.js"></script>-->
+
+</body>
+</html>
